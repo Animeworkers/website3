@@ -1,0 +1,29 @@
+{
+  "name": "free-landings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/EpicCoders/free-landings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/EpicCoders/free-landings/issues"
+  },
+  "homepage": "https://gitlab.com/EpicCoders/free-landings#README",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "bulma-scss": "^0.7.4-1",
+    "gulp-scss": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

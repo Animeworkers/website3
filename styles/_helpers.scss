@@ -1,0 +1,311 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+	flex-direction: column;
+}
+
+.top {
+	align-items: flex-start;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.bottom {
+	align-items: flex-end;
+}
+
+.left {
+	justify-content: flex-start;
+}
+
+.single-spaced, .single-spaced {
+	line-height: 1;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.z-index-10 {
+	z-index: 10;
+}
+
+.container {
+	max-width: 1080px;
+}
+
+.flex-grow-0 {
+	flex-grow: 0 !important;
+}
+
+.shadow-none {
+	box-shadow: transparent !important;
+}
+
+.shadow-navbar {
+	box-shadow: 0 3px 32px 0 rgba(220, 222, 236, 0.75);
+}
+
+.shadow-xl {
+	box-shadow: 0 24px 59px 0px rgba(67,67,87,0.11) !important;
+}
+
+.shadow-large {
+	box-shadow: 0 15px 54px 0 rgba(52, 61, 87, 0.13) !important;
+}
+
+.shadow-large2 {
+	box-shadow: 0 35px 40px -3px rgba(0,17,64, 0.12) !important;
+}
+
+.shadow-medium {
+	box-shadow: 0 13px 13px 3px rgba(0, 22, 84, 0.1) !important;
+}
+
+.shadow-small {
+	box-shadow: 0 4px 8px 0 rgba(67,67,87,0.10) !important;
+}
+
+.shadow-pink {
+	box-shadow: 0 24px 55px 0 rgba(255,94,133,0.20) !important;
+}
+
+.opacity-60 {
+	opacity: 0.6;
+}
+
+.opacity-80 {
+	opacity: 0.8;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.border-none {
+	border: none !important;
+}
+
+.icon-blue {
+	color: #24DEE7;
+}
+
+.icon-purple {
+	color: #2E5AFE;
+}
+
+.text-bluish-gray {
+	color: #7F919F;
+}
+
+.text-dust-gray {
+	color: #8E8EA2;
+}
+
+.text-dark-gray {
+	color: #3D3D3D;
+}
+
+.text-dark-gray2 {
+	color: #2D3540;
+}
+
+.text-dark-gray3 {
+	color: #202750;
+}
+
+.text-light-gray {
+	color: #C7CCD7;
+}
+
+.text-darker-gray {
+	color: #3C3F40;
+}
+
+.text-dark-blue {
+	color: #321E41;
+}
+
+.text-darker-blue {
+	color: #090624;
+}
+
+.text-faded-black {
+	color: #2E2E2E;
+}
+
+.text-faded-gray {
+	color: #D7D7D7;
+}
+
+.text-faded-gray2 {
+	color: #969A9F;
+}
+
+.text-sand-gray {
+	color: #5F5D70;
+}
+
+.text-orange {
+	color: #FFA45E;
+}
+
+.text-neon-pink {
+	color: #FF5E85;
+}
+
+.text-purpely {
+	color: #5E6CD3;
+}
+
+.snippet-yellow {
+	color: #FFC110;
+}
+
+.snippet-green {
+	color: #1EA462;
+}
+
+.snippet-blue {
+	color: #4384F2;
+}
+
+.text-dribbble {
+	color: #F33182 !important;
+}
+
+.text-twitter {
+	color: #42A6F4 !important;
+}
+
+.text-facebook {
+	color: #3046E3 !important;
+}
+
+.text-instagram {
+	color: #000000 !important;
+}
+
+.icon-social {
+	font-size: 18px;
+}
+
+//Spacing
+
+.m-0 {
+	margin: 0px !important;
+}
+
+.m-15 {
+	margin: 15px;
+}
+
+.m-20 {
+	margin: 20px;
+}
+
+.m-30 {
+	margin: 30px;
+}
+
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mt-60 {
+	margin-top: 60px !important;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mr-0 {
+	margin-right: 0px !important;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mr-25 {
+	margin-right: 25px;
+}
+
+.mr-40 {
+	margin-right: 40px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.ml-0 {
+	margin-left: 0px !important;
+}
+
+.ml-15 {
+	margin-left: 15px;
+}
+
+.p-0 {
+	padding: 0px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
+.p-25 {
+	padding: 25px;
+}
+
+.pr-0 {
+	padding-right: 0px !important;
+}
+
+.pb-30 {
+	padding-bottom: 30px !important;
+}
+
+.pl-0 {
+	padding-left: 0px;
+}

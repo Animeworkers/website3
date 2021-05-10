@@ -1,0 +1,214 @@
+@import "./../styles/utils/variables";
+@import "./../styles/utils/mixins";
+
+.gradient-blue {
+	background: linear-gradient(to bottom, #53B6FB, white);
+}
+
+.gradient-dark-blue {
+	background: linear-gradient(to bottom right, #38A3F2, #3257E6);
+}
+
+.gradient-green {
+	background: linear-gradient(224.79deg, #BADA57 0%, #58D9D4 100%);
+}
+
+.gradient-pink {
+	background: linear-gradient(225deg, #FF8185 0%, #FE35B9 100%);
+}
+
+.gradient-orange {
+	background: linear-gradient(224.83deg, #FFBD2A 0%, #FF9163 100%);
+}
+
+.gradient-dark-orange {
+	background: linear-gradient(to right, #F38441, #F44D51);
+}
+
+.gradient-purple {
+	background: linear-gradient(225.82deg, #52D6FD 0%, #9F99FE 100%);
+}
+
+.gradient-red {
+	background: linear-gradient(to bottom right, #FF60C2, #EB175D);
+}
+
+.gradient-mauve {
+	background: linear-gradient(to right, #B379EF, #862BF1);
+}
+
+.gradient-light-gray {
+	background: linear-gradient(to bottom, white, #E5EBF0);
+}
+
+.gradient-soft-gray {
+	background: linear-gradient(to bottom, #F1F2F4, white);
+}
+
+.gradient-instagram {
+	background-image: linear-gradient(172.38deg, #F39442 0%, #F38241 38.17%, #F44C51 100%);
+}
+
+.gradient-twitter {
+	background-image: linear-gradient(168.7deg, #80E3EB 0%, #551FF8 100%);
+}
+
+.gradient-dribbble {
+	background-image: linear-gradient(172.38deg, #EF469F 0%, #F54663 100%);
+}
+
+.bg-dark-blue {
+	background-color: #5F9AFB;
+}
+
+.bg-sky-blue {
+	background-color: #1683F5;
+}
+
+.bg-darker-blue {
+	background-color: #090624;
+}
+
+.bg-dark-purple {
+	background-color: #6151E8;
+}
+
+.bg-dark-pink {
+	background-color: #EE118D;
+}
+
+.bg-neon-pink {
+	background-color: #FF5E85;
+}
+
+.bg-light-gray {
+	background-color: #F7F9FF;
+}
+
+.bg-lighter-gray {
+	background-color: #F5F5FC;
+}
+
+.bg-soft-gray {
+	background-color: #FBFBFB;
+}
+
+.bg-sky-gray {
+	background-color: #F9FDFF;
+}
+
+.bg-dark-gray {
+	background-color: #3C3F40;
+}
+
+.bg-dust-gray {
+	background-color: #EEEEEE;
+}
+
+.bg-dark-night {
+	background-color: #2E2E2E;
+}
+
+.bg-mauve {
+	background-color: #321E41 !important;
+}
+
+.bg-dark-mauve {
+	background-color: #2E2B45 !important;
+}
+
+.bg-orange {
+	background-color: #FFA45E;
+}
+
+.bg-indigo {
+	background-color: #1A1A2B;
+}
+
+.bg-sky-blue {
+	background-color: #1683F5;
+}
+
+.bg-faded-gray {
+	background-color: #F4F6FA;
+}
+
+.bg-oil-black {
+	background-color: #28313B;
+}
+
+.bg-coal-black {
+	background-color: #0A070B;
+}
+
+.bg-shape-1 {
+	background: url('../images/shapes-1@3x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 306px;
+	min-height: 482px;
+	@include screen-sm {
+		width: 100%;
+	}
+}
+
+.bg-shape-2 {
+	background: url('../images/shapes-2@3x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 306px;
+	min-height: 482px;
+	@include screen-sm {
+		width: 100%;
+	}
+}
+
+.bg-shape-3 {
+	background: url('../images/shapes-3@3x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 306px;
+	min-height: 482px;
+	@include screen-sm {
+		width: 100%;
+	}
+}
+
+.bg-footer {
+	background: url('../images/footer-bg@3x.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
+	min-height: 556px;
+}
+
+.bg-circle {
+	background: url('../images/Circle@3x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	min-height: 936px;
+}
+
+.bg-gray-waves {
+	background: url('../images/gray-waves@3x.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	overflow: visible;
+	max-height: 700px;
+	@include screen-md {
+		max-height: 1500px
+	}
+}
+
+.bg-purple-shapes {
+	background: url('../images/bg-purple@3x.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
+	min-height: 556px;
+}
